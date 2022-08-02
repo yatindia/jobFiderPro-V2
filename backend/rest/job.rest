@@ -1,0 +1,13 @@
+@url = http://127.0.0.1:5300/job
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEyMTJAMTIxMiIsInR5cGUiOiJzZWVrZXIiLCJhdXRoaWQiOiI2MmQzZmFmOWE2OWY0NTcwN2FmZDYwYjAiLCJpYXQiOjE2NTgxMDkzMjMsImV4cCI6MTY1ODI4MjEyM30.qhbZOEk-ByIUGU0sCv7c7IZC6TGOvPEcmEpjYeBBKk4
+
+###
+POST {{url}}/search
+Content-Type: application/json
+Authorization: <Bearer> {{token}}
+
+{
+    "skip":0,
+    "limit": 10,
+    "jobTitle": "asd"
+}

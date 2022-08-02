@@ -1,0 +1,57 @@
+@url = http://127.0.0.1:5300/account
+
+
+###
+POST {{url}}/uploaddp
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="profile"; filename="1.png"
+Content-Type: image/png
+
+< ./1.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+###
+POST {{url}}/uploadresume
+
+###
+POST {{url}}/signup
+Content-Type: application/json
+
+{
+    "firstName": "Noel",
+    "lastName": "Jose",
+    "type": "seeker",
+    "email": "noeljose15@gmail.com",
+    "password": "Mirage20#@",
+   "profileImage": "04ba2d40-98ea-494c-a3fe-6ccb1003cf17.jpg"
+}
+
+###
+POST {{url}}/confirm/:id"
+
+###
+POST {{url}}/reconfirm
+Content-Type: application/json
+
+{
+    "email": "sdfsdf@sdasd.asd"
+}
+
+###
+POST {{url}}/login
+Content-Type: application/json
+
+{
+ 
+    "email": "1212@1212",
+    "password": "1212"
+}
+
+###
+POST {{url}}/recoverPassword
+
+###
+POST {{url}}/signupcomplete
+
+
