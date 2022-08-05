@@ -35,8 +35,11 @@
   </footer>
 
   <style>
+    footer {
+      background-color: #b6d5eb;
+    }
       a > i {
-          color: grey;
+          color: #03045e;
       }
   </style>
 

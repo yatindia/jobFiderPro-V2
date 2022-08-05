@@ -17,10 +17,10 @@
     <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
     </defs>
     <g class="parallax">
-    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="#219ebc" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="#0077b6" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="#00b4d8" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#90e0ef" />
     </g>
     </svg>
     
@@ -42,7 +42,7 @@
   
   .ad {
 
-    background-color: #fff;
+    background-color: #b6d5eb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,8 +61,8 @@
   }
 
   h2 {
-    background-color: rgba(255, 255, 255, 1);
-    color: #ff416c;
+    background-color: #b6d5eb;
+    color: #03045e;
     font-size: 40px;
   }
 
@@ -73,7 +73,7 @@
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  background: linear-gradient(to right, #03045e, #00509d);
   color:white;
 }
 

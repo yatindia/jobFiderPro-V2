@@ -59,7 +59,7 @@
        <a href="/user/home" class="button is-light">
         Account
       </a>
-        <a href="/" on:click|preventDefault={()=>{localStorage.clear(); location.href="/"}} class="button is-danger" style="background-color:#C02026;">
+        <a href="/" on:click|preventDefault={()=>{localStorage.clear(); location.href="/"}} class="button is-danger" style="background-color:#03045e;">
           <strong>Logout</strong>
         </a>
        {:else}
@@ -75,3 +75,9 @@
     </div>
   </div>
 </nav>
+
+<style>
+  .navbar {
+    background-color: #b6d5eb;
+  }
+</style>

@@ -67,7 +67,7 @@
         width:90%;
         max-width: 800px;
         margin: auto;
-        border:1px solid #C02026;
+        border:1px solid #03045e;
         padding: 2%;
         border-radius: 5px;
         

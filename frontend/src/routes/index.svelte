@@ -25,7 +25,7 @@
 
 
 <section class="section is-clipped">
-	<div class="container is-relative" style="background-color: rgb(192,32,38);">
+	<div class="container is-relative" style="background-color: #03045e;">
 	  <div class="is-absolute is-top-0 is-bottom-0 is-left-0 is-right-0 my-8 -mx-8 has-background-light"></div>
 	  <div style="background-image: url(/img/cta-lines.svg );" class="is-relative ">
 	
@@ -44,5 +44,7 @@
   </section>
 
 <style>
-
+section {
+	background-color: #b6d5eb;
+}
 </style>
