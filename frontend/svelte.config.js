@@ -6,6 +6,11 @@ const config = {
 	preprocess: sveltePreprocess (),
 	kit: {
 		adapter: adapter(),
+		vite: {
+			server: {
+				port: 4000
+			}
+		},
 		
 
 		// Override http methods in the Todo forms
